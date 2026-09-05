@@ -1,0 +1,13 @@
+{
+  "name": "medlens",
+  "version": "2.0.0",
+  "private": true,
+  "description": "MedLens - trustworthy clinical information organization and human verification",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test node --test tests/*.test.js",
+    "check": "node --check app.js && node --check api/extract.js"
+  }
+}
